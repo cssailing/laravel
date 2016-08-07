@@ -54,6 +54,7 @@ $ composer install
 
 ```
 $ php artisan migrate --seed
+$ php artisan key:generate
 ```
 * 将站点目录指向根目录下的public(/public);
 * 路由访问:/admin/index
